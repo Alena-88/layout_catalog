@@ -2,9 +2,9 @@
   margin: 0;
   box-sizing: border-box;
   background-color: $main-background-color;
-  border: 1px solid #f3f3f3;
-  border-radius: 5px;
-  width: 200px;
+  border: $border-card;
+  border-radius: $border-radius;
+  width: $card-width;
   padding: 32px 16px 16px;
 
   transition: transform 300ms;
@@ -80,7 +80,7 @@
     background-color: $main-color-accent;
     width: 166px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: $border-radius;
     color: $main-background-color;
     margin-top: 16px;
     justify-content: center;
@@ -98,7 +98,7 @@
     background-color: $main-background-color;
     color: $main-color-accent;
     border: 1px solid $main-color-accent;
-    border-radius: 5px;
+    border-radius: $border-radius;
     text-decoration: none;
   }
 

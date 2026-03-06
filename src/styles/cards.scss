@@ -6,7 +6,7 @@
   padding: 50px 40px;
   justify-content: center;
 
-  grid-template-columns: repeat(var(--column-count), 200px);
+  grid-template-columns: repeat(var(--column-count), $card-width);
 }
 
 @media (min-width: 488px) {

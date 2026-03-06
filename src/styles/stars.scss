@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 16px;
+  height: $stars-height;
 
   &__wrap {
     display: flex;
@@ -10,8 +10,8 @@
   }
 
   &__star {
-    width: 16px;
-    height: 16px;
+    width: $stars-height;
+    height: $stars-height;
     margin-right: 4px;
     background-image: url(../images/star.svg);
     background-position: center;
